@@ -1,0 +1,19 @@
+img {
+    width: 100%;
+    height: 200px;
+}
+
+.card {
+    height: 600px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    background-color: gainsboro;
+    width: 5px;
+
+}
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
